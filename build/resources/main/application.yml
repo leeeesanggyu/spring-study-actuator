@@ -22,3 +22,7 @@ info:
   test:
     code: 200
     message: hello, world!
+
+logging:
+  level:
+    hello.controller: trace
