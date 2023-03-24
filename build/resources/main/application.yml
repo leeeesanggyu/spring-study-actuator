@@ -23,6 +23,7 @@ info:
     code: 200
     message: hello, world!
 
+# Can be changed by API request during Runtime
 logging:
   level:
-    hello.controller: trace
+    hello.controller: debug
