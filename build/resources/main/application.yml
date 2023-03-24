@@ -1,11 +1,24 @@
 management:
+  info:
+    java:
+      enabled: true
+    os:
+      enabled: true
+    env:
+      enabled: true
   endpoint:
     shutdown:
       enabled: true
     health:
-#      show-details: always
-      show-components: always
+      show-details: always
+#      show-components: always
+
   endpoints:
     web:
       exposure:
         include: "*"
+
+info:
+  test:
+    code: 200
+    message: hello, world!
